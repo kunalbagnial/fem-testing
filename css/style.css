@@ -45,6 +45,15 @@
   background-color: var(--clr-light-grayish-blue);
 }
 
+.feature .container:nth-child(1) {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.feature__description {
+  line-height: 1.6;
+}
+
 .feature__item {
   text-align: center;
 }
@@ -54,8 +63,9 @@
 }
 
 .feature__title {
-  font-size: 1.125rem;
-  font-weight: 400;
+  /* font-size: 1.125rem; */
+  font-size: 1.25rem;
+  font-weight: 300;
   color: var(--clr-dark-blue);
   margin-bottom: 1rem;
 }
