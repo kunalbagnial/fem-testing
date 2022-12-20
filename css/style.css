@@ -28,20 +28,20 @@
 
 .hero__text {
   text-align: center;
-  padding-block: 2.25rem;
-  padding-inline: 1.25rem;
+  padding-inline: 1.5rem;
+  padding-block-start: 1.875rem;
+  padding-block-end: 4.375rem;
 }
 
 .hero__description {
   font-size: 0.875rem;
-  font-weight: 400;
-  color: var(--clr-grayish-blue);
+  font-weight: 300;
   line-height: 1.6;
   margin-bottom: 1.875rem;
 }
 
 .feature {
-  padding-block: 4rem;
+  padding-block: 4.375rem;
   background-color: var(--clr-light-grayish-blue);
 }
 
@@ -71,6 +71,7 @@
 }
 
 .feature__text {
-  font-size: 0.875rem;
-  line-height: 1.6;
+  /* font-size: 0.875rem; */
+  font-size: 15px;
+  line-height: 1.5;
 }

@@ -45,8 +45,8 @@
 
   .hero__description {
     font-size: 1.0625rem;
-    margin-bottom: 2rem;
     line-height: 1.5;
+    margin-bottom: 2rem;
   }
 
   .feature .container:nth-child(1) {
