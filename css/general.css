@@ -27,7 +27,6 @@ html {
 }
 
 body {
-  font-size: 0.875rem;
   font-family: "Public Sans", sans-serif;
   font-weight: 300;
   line-height: 1;
@@ -44,7 +43,11 @@ body {
 
 .grid {
   display: grid;
-  gap: 1.25rem;
+  gap: 1.875rem;
+}
+
+.grid--4-cols {
+  grid-template-columns: auto;
 }
 
 .heading-primary,
@@ -102,4 +105,8 @@ body {
 .btn--gradient:hover::before,
 .btn--gradient:active::before {
   opacity: 1;
+}
+
+.text-center {
+  text-align: center;
 }
