@@ -43,7 +43,7 @@ body {
 
 .grid {
   display: grid;
-  gap: 1.875rem;
+  gap: 1.75rem;
 }
 
 .grid--4-cols {
