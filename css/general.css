@@ -41,13 +41,13 @@ body {
   padding-inline: 1.5rem;
 }
 
-.grid {
-  display: grid;
-  gap: 1.75rem;
+.container--px-0 {
+  padding-inline: 0;
 }
 
-.grid--4-cols {
-  grid-template-columns: auto;
+.grid {
+  display: grid;
+  gap: 1.875rem;
 }
 
 .heading-primary,
@@ -89,7 +89,7 @@ body {
   background-image: linear-gradient(to right, #31d35c, #2bb7da);
 }
 
-.btn--gradient:link::before,
+/* .btn--gradient:link::before,
 .btn--gradient:visited::before {
   content: "";
   position: absolute;
@@ -105,8 +105,4 @@ body {
 .btn--gradient:hover::before,
 .btn--gradient:active::before {
   opacity: 1;
-}
-
-.text-center {
-  text-align: center;
-}
+} */
