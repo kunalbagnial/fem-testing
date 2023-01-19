@@ -32,6 +32,7 @@ body {
   line-height: 1;
   color: var(--clr-grayish-blue);
   overflow-x: inherit;
+  position: relative;
 }
 
 .container {
@@ -43,6 +44,7 @@ body {
 
 .container--px-0 {
   padding-inline: 0;
+  position: relative;
 }
 
 .grid {

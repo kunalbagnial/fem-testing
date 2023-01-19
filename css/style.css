@@ -1,3 +1,21 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(#2d314d, transparent);
+  z-index: 10;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.header {
+  position: relative;
+  background: var(--clr-white);
+  z-index: 9999;
+}
+
 .header__nav {
   display: flex;
   justify-content: space-between;
@@ -9,7 +27,7 @@
 .header__links {
   position: absolute;
   width: calc(100% - 3rem);
-  background-color: white;
+  background-color: var(--clr-white);
   top: 4.75rem;
   left: 50%;
   transform: translateX(-50%);
@@ -29,7 +47,7 @@
 
 .header__link:link,
 .header__link:visited {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   font-size: 1rem;
   color: var(--clr-dark-blue);
@@ -42,10 +60,22 @@
   cursor: pointer;
 }
 
+.header__toggle img:nth-child(2) {
+  display: none;
+}
+
 .nav-open .header__links {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+.nav-open .header__toggle img:nth-child(2) {
+  display: block;
+}
+
+.nav-open .header__toggle img:nth-child(1) {
+  display: none;
 }
 
 .hero {
